@@ -47,7 +47,7 @@ public class EvaluationCriterion
 public class Evaluation
 {
     public int EvaluationId { get; set; } // Код оценки
-    public int ObjectId { get; set; } // Код объекта
+    public int RealEstateObjectId { get; set; } // Код объекта
     public DateTime EvaluationDate { get; set; } // Дата оценивания
     public int CriterionId { get; set; } // Код критерия
     public int Score { get; set; } // Оценка
